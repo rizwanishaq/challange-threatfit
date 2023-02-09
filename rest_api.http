@@ -1,0 +1,22 @@
+POST http://127.0.0.1:8000 
+content-type: application/json
+
+{
+	"Model": "XGB",
+	"HT": {
+        "Mean": 48.48,
+        "STD": 23.23
+    },
+    "PPT": {
+        "Mean": 120.43,
+        "STD": 37.41
+    },
+    "RRT": {
+        "Mean": 124.43,
+        "STD": 45.34
+    },
+    "RPT": {
+        "Mean": 132.56,
+        "STD": 47.12
+    }   
+}
