@@ -19,9 +19,6 @@ class Item(BaseModel):
 
 
 
-
-
-
 app = FastAPI()
 handler = Mangum(app)
 
